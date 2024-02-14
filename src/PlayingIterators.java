@@ -39,6 +39,7 @@ public class PlayingIterators {
                         .map(fruit -> fruit.concat(" has an expired!"))
                                 .collect(Collectors.toList()); // good approach
 
-        System.out.println(expiredFruits);
+        expiredFruits.forEach(System.out::println);
+
     }
 }
