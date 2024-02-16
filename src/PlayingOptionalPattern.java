@@ -11,7 +11,7 @@ import java.util.Optional;
     - Never use Optional<T> as a parameter to Methods. if needed to set an empty value use overloading instead
 
  */
-public class PlayingOptional {
+public class PlayingOptionalPattern {
 
 
     public static void main(String[] args) {

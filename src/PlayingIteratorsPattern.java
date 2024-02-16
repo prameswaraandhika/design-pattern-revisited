@@ -4,7 +4,7 @@ import java.util.stream.Collectors;
 
 import static java.util.List.of;
 
-public class PlayingIterators {
+public class PlayingIteratorsPattern {
     public static void main(String[] args) {
 
         var fruits = of("Apple", "Banana", "Avocado", "Strawberry", "Durian", "Anggur");
